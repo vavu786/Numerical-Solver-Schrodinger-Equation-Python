@@ -188,7 +188,7 @@ def main():
             plt.plot(x_axis, y_axis)
 
             plt.xlim([-6.0, 6.0])
-            plt.savefig(f"n={i}_wavefunction.png")
+            plt.savefig(f"images/n={i}_wavefunction.png")
             plt.show()
 
 
